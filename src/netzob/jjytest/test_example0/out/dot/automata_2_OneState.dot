@@ -1,0 +1,14 @@
+digraph G {
+"Start state" [shape=doubleoctagon, label="Start state", style=filled, fillcolor=white, URL="140455473602272"];
+"Main state" [shape=ellipse, label="Main state", style=filled, fillcolor=white, URL="140455473630752"];
+"End state" [shape=ellipse, label="End state", style=filled, fillcolor=white, URL="140455473628400"];
+"Start state" -> "Main state" [fontsize=15, label="OpenChannelTransition", URL="140455473628496"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDidentify;{Symbol_RESidentify})", URL="140455473630512"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDinfo;{Symbol_RESinfo})", URL="140455473631184"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDstats;{Symbol_RESstats})", URL="140455473630944"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDauthentify;{Symbol_RESauthentify})", URL="140455830604960"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDencrypt;{Symbol_RESencrypt})", URL="140455830605104"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDdecrypt;{Symbol_RESdecrypt})", URL="140455830602368"];
+"Main state" -> "Main state" [fontsize=15, label="Transition (Symbol_CMDbye;{Symbol_RESbye})", URL="140455830605344"];
+"Main state" -> "End state" [fontsize=15, label="CloseChannelTransition", URL="140455830603472"];
+}

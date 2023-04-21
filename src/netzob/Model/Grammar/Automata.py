@@ -264,7 +264,7 @@ class Automata(object):
                     descr += " [CBK modify symbol] "
 
                 dotCode.append(
-                    '"{}" -> "{}" [fontsize=5, label="{}", URL="{}"];'.
+                    '"{}" -> "{}" [fontsize=15, label="{}", URL="{}"];'.
 
                     format(inputState.name, outputState.name,
                            descr, id(transition)))

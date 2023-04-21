@@ -1,0 +1,50 @@
+[+] Relations found: 
+  SizeRelation, between 'value' of:
+    Field00
+    [[b'\x07', b'\x04']]
+  and 'size' of:
+    Field02
+    [[b'Roberto', b'fred']]
+[+] Relations found: 
+[+] Relations found: 
+[+] Relations found: 
+[+] Relations found: 
+[+] Relations found: 
+[+] Relations found: 
+  SizeRelation, between 'value' of:
+    Field00
+    [[b'\n', b'\t']]
+  and 'size' of:
+    Field02-Field03-Field04
+    [[b'aStrongP', b'myPass'], [b'wd', b'wd'], [b'', b'!']]
+[+] Relations found: 
+[+] Relations found: 
+  SizeRelation, between 'value' of:
+    Field00
+    [[b'\x06', b'\n']]
+  and 'size' of:
+    Field02
+    [[b'abcdef', b'123456test']]
+[+] Relations found: 
+  SizeRelation, between 'value' of:
+    Field01
+    [[b'\x06', b'\n']]
+  and 'size' of:
+    Field03
+    [[b"$ !&'$", b"spqvwt6'16"]]
+[+] Relations found: 
+  SizeRelation, between 'value' of:
+    Field00
+    [[b'\x06', b'\n']]
+  and 'size' of:
+    Field02
+    [[b"$ !&'$", b"spqvwt6'16"]]
+[+] Relations found: 
+  SizeRelation, between 'value' of:
+    Field01
+    [[b'\x06', b'\n']]
+  and 'size' of:
+    Field03
+    [[b'abcdef', b'123456test']]
+[+] Relations found: 
+[+] Relations found: 

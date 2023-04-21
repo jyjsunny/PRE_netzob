@@ -1,0 +1,158 @@
+[+] Symbol structure:
+Symbol_CMDidentify
+|--  Field-0
+     |--   Data (Raw(b'CMDidentify'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Size(['Field02']) - Type:Integer(0,255)
+|--  |--  Field01
+          |--   Data (Raw(b'\x00\x00\x00'))
+|--  |--  Field02
+          |--   Data (Raw(nbBytes=(0,7)))
+[+] Symbol structure:
+Symbol_RESidentify
+|--  Field-0
+     |--   Data (Raw(b'RESidentify'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00\x00\x00\x00\x00'))
+[+] Symbol structure:
+Symbol_CMDinfo
+|--  Field-0
+     |--   Data (Raw(b'CMDinfo'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00'))
+[+] Symbol structure:
+Symbol_RESinfo
+|--  Field-0
+     |--   Data (Raw(b'RESinfo'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00\x04\x00\x00\x00info'))
+[+] Symbol structure:
+Symbol_CMDstats
+|--  Field-0
+     |--   Data (Raw(b'CMDstats'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00'))
+[+] Symbol structure:
+Symbol_RESstats
+|--  Field-0
+     |--   Data (Raw(b'RESstats'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00\x05\x00\x00\x00stats'))
+[+] Symbol structure:
+Symbol_CMDauthentify
+|--  Field-0
+     |--   Data (Raw(b'CMDauthentify'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Size(['Field02', 'Field03', 'Field04']) - Type:Integer(0,255)
+|--  |--  Field01
+          |--   Data (Raw(b'\x00\x00\x00'))
+|--  |--  Field02
+          |--   Data (Raw(nbBytes=(0,11)))
+|--  |--  Field03
+          |--   Data (Raw(b'wd'))
+|--  |--  Field04
+          |--   Data (Raw(nbBytes=(0,1)))
+[+] Symbol structure:
+Symbol_RESauthentify
+|--  Field-0
+     |--   Data (Raw(b'RESauthentify'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00\x00\x00\x00\x00'))
+[+] Symbol structure:
+Symbol_CMDencrypt
+|--  Field-0
+     |--   Data (Raw(b'CMDencrypt'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Size(['Field02']) - Type:Integer(0,255)
+|--  |--  Field01
+          |--   Data (Raw(b'\x00\x00\x00'))
+|--  |--  Field02
+          |--   Data (Raw(nbBytes=(0,10)))
+[+] Symbol structure:
+Symbol_RESencrypt
+|--  Field-0
+     |--   Data (Raw(b'RESencrypt'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00'))
+|--  |--  Field01
+          |--   Size(['Field03']) - Type:Integer(0,255)
+|--  |--  Field02
+          |--   Data (Raw(b'\x00\x00\x00'))
+|--  |--  Field03
+          |--   Data (Raw(nbBytes=(0,10)))
+[+] Symbol structure:
+Symbol_CMDdecrypt
+|--  Field-0
+     |--   Data (Raw(b'CMDdecrypt'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Size(['Field02']) - Type:Integer(0,255)
+|--  |--  Field01
+          |--   Data (Raw(b'\x00\x00\x00'))
+|--  |--  Field02
+          |--   Data (Raw(nbBytes=(0,10)))
+[+] Symbol structure:
+Symbol_RESdecrypt
+|--  Field-0
+     |--   Data (Raw(b'RESdecrypt'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00'))
+|--  |--  Field01
+          |--   Size(['Field03']) - Type:Integer(0,255)
+|--  |--  Field02
+          |--   Data (Raw(b'\x00\x00\x00'))
+|--  |--  Field03
+          |--   Data (Raw(nbBytes=(0,10)))
+[+] Symbol structure:
+Symbol_CMDbye
+|--  Field-0
+     |--   Data (Raw(b'CMDbye'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00'))
+[+] Symbol structure:
+Symbol_RESbye
+|--  Field-0
+     |--   Data (Raw(b'RESbye'))
+|--  Field-sep-23
+     |--   Data (Raw(b'#'))
+|--  Field-2
+|--  |--  Field00
+          |--   Data (Raw(b'\x00\x00\x00\x00\x00\x00\x00\x00'))

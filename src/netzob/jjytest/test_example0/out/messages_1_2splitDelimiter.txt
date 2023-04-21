@@ -1,0 +1,38 @@
+Symbol
+|--  Field-0
+     |--   Alt
+           |--   Data (Raw(b'CMDidentify'))
+           |--   Data (Raw(b'RESidentify'))
+           |--   Data (Raw(b'CMDinfo'))
+           |--   Data (Raw(b'RESinfo'))
+           |--   Data (Raw(b'CMDstats'))
+           |--   Data (Raw(b'RESstats'))
+           |--   Data (Raw(b'CMDauthentify'))
+           |--   Data (Raw(b'RESauthentify'))
+           |--   Data (Raw(b'CMDencrypt'))
+           |--   Data (Raw(b'RESencrypt'))
+           |--   Data (Raw(b'CMDdecrypt'))
+           |--   Data (Raw(b'RESdecrypt'))
+           |--   Data (Raw(b'CMDbye'))
+           |--   Data (Raw(b'RESbye'))
+|--  Field-sep-23
+     |--   Opt
+           |--   Data (String('#'))
+|--  Field-2
+     |--   Alt
+           |--   Data (Raw(b'\x07\x00\x00\x00Roberto'))
+           |--   Data (Raw(b'\x00\x00\x00\x00\x00\x00\x00\x00'))
+           |--   Data (Raw(b'\x00\x00\x00\x00'))
+           |--   Data (Raw(b'\x00\x00\x00\x00\x04\x00\x00\x00info'))
+           |--   Data (Raw(b'\x00\x00\x00\x00\x05\x00\x00\x00stats'))
+           |--   Data (Raw(b'\n\x00\x00\x00aStrongPwd'))
+           |--   Data (Raw(b'\x06\x00\x00\x00abcdef'))
+           |--   Data (Raw(b"\x00\x00\x00\x00\x06\x00\x00\x00$ !&'$"))
+           |--   Data (Raw(b"\x06\x00\x00\x00$ !&'$"))
+           |--   Data (Raw(b'\x00\x00\x00\x00\x06\x00\x00\x00abcdef'))
+           |--   Data (Raw(b'\x04\x00\x00\x00fred'))
+           |--   Data (Raw(b'\t\x00\x00\x00myPasswd!'))
+           |--   Data (Raw(b'\n\x00\x00\x00123456test'))
+           |--   Data (Raw(b"\x00\x00\x00\x00\n\x00\x00\x00spqvwt6'16"))
+           |--   Data (Raw(b"\n\x00\x00\x00spqvwt6'16"))
+           |--   Data (Raw(b'\x00\x00\x00\x00\n\x00\x00\x00123456test'))

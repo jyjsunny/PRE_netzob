@@ -1,0 +1,21 @@
+digraph G {
+"Start state" [shape=doubleoctagon, label="Start state", style=filled, fillcolor=white, URL="140455473631088"];
+"State 1" [shape=ellipse, label="State 1", style=filled, fillcolor=white, URL="140455473628016"];
+"State 2" [shape=ellipse, label="State 2", style=filled, fillcolor=white, URL="140455830606368"];
+"State 3" [shape=ellipse, label="State 3", style=filled, fillcolor=white, URL="140455830607328"];
+"State 4" [shape=ellipse, label="State 4", style=filled, fillcolor=white, URL="140455830608000"];
+"State 5" [shape=ellipse, label="State 5", style=filled, fillcolor=white, URL="140455830606272"];
+"State 6" [shape=ellipse, label="State 6", style=filled, fillcolor=white, URL="140455830606752"];
+"State 7" [shape=ellipse, label="State 7", style=filled, fillcolor=white, URL="140455830606848"];
+"State 8" [shape=ellipse, label="State 8", style=filled, fillcolor=white, URL="140455830606416"];
+"End state" [shape=ellipse, label="End state", style=filled, fillcolor=white, URL="140455830607904"];
+"Start state" -> "State 1" [fontsize=15, label="OpenChannelTransition", URL="140455830608048"];
+"State 1" -> "State 2" [fontsize=15, label="Transition (Symbol_CMDidentify;{Symbol_RESidentify})", URL="140455830606464"];
+"State 2" -> "State 3" [fontsize=15, label="Transition (Symbol_CMDinfo;{Symbol_RESinfo})", URL="140455830606320"];
+"State 3" -> "State 4" [fontsize=15, label="Transition (Symbol_CMDstats;{Symbol_RESstats})", URL="140455830606176"];
+"State 4" -> "State 5" [fontsize=15, label="Transition (Symbol_CMDauthentify;{Symbol_RESauthentify})", URL="140455830607616"];
+"State 5" -> "State 6" [fontsize=15, label="Transition (Symbol_CMDencrypt;{Symbol_RESencrypt})", URL="140455830607952"];
+"State 6" -> "State 7" [fontsize=15, label="Transition (Symbol_CMDdecrypt;{Symbol_RESdecrypt})", URL="140455830607808"];
+"State 7" -> "State 8" [fontsize=15, label="Transition (Symbol_CMDbye;{Symbol_RESbye})", URL="140455830605200"];
+"State 8" -> "End state" [fontsize=15, label="CloseChannelTransition", URL="140455830605056"];
+}
